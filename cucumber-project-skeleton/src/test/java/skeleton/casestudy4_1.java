@@ -24,6 +24,7 @@ public class casestudy4_1 {
 		    driver.findElement(By.name("userName")).sendKeys("Lalitha");
 		    driver.findElement(By.name("password")).sendKeys("Password123");
 		    driver.findElement(By.name("Login")).click();
+		    System.out.println("Hi");
 	}
 
 	@When("search the product and go to the cart")
